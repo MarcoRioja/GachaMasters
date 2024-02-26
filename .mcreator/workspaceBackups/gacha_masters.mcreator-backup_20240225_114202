@@ -1,0 +1,699 @@
+{
+  "mod_elements": [
+    {
+      "name": "GachaGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/network/GachaGUIButtonMessage.java",
+          "src/main/java/vtx/miritokaba/gachamasters/world/inventory/GachaGUIMenu.java",
+          "src/main/java/vtx/miritokaba/gachamasters/client/gui/GachaGUIScreen.java"
+        ]
+      },
+      "path": "~/GUIs"
+    },
+    {
+      "name": "QuitGachaGUI",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quit_gacha_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/QuitGachaGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OpenGachaGUI",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gacha_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/OpenGachaGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "OpenGachaCommand",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_gacha_command",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/command/OpenGachaCommandCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SelectGacha1GUI",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_1_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha1GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha2GUI",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_2_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha2GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "NextGacha",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "next_gacha",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/NextGachaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PrevGacha",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prev_gacha",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/PrevGachaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RollGacha",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_gacha",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/RollGachaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "RollGachax10",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roll_gachax_10",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/RollGachax10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SeeGachaRolls",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "see_gacha_rolls",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SeeGachaRollsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GachaRolls",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gacha_rolls",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/command/GachaRollsCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SetRollsProcedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_rolls_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SetRollsProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SetRolls",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_rolls",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/command/SetRollsCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SetPorcentagesProcedure",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_porcentages_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SetPorcentagesProcedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SeePorcentages",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "see_porcentages",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SeePorcentagesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "SeePorcentagesCommand",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "see_porcentages_command",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/command/SeePorcentagesCommandCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SetPorcentages",
+      "type": "command",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_porcentages",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/command/SetPorcentagesCommand.java"
+        ]
+      },
+      "path": "~/Commands"
+    },
+    {
+      "name": "SelectGacha3GUI",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_3_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha3GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha4GUI",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_4_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha4GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha5GUI",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_5_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha5GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha6GUI",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_6_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha6GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha7GUI",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_7_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha7GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha8GUI",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_8_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha8GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha9GUI",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_9_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha9GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SelectGacha10GUI",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "select_gacha_10_gui",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/SelectGacha10GUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "SilverKey",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_key",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/item/SilverKeyItem.java",
+          "src/main/resources/assets/gacha_masters/models/item/silver_key.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GoldKey",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/gacha_masters/models/item/gold_key.json",
+          "src/main/java/vtx/miritokaba/gachamasters/item/GoldKeyItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "OpeningChest",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opening_chest",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/OpeningChestProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/SelectGacha"
+    },
+    {
+      "name": "ClickRoll",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "click_roll",
+      "metadata": {
+        "files": [
+          "src/main/java/vtx/miritokaba/gachamasters/procedures/ClickRollProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "gui.gacha_masters.gacha_gui.button_1": "1",
+      "gui.gacha_masters.gacha_gui.button_10": "10",
+      "item.gacha_masters.silver_key": "Silver Key",
+      "gui.gacha_masters.gacha_gui.button_x": "X",
+      "item.gacha_masters.gold_key": "Gold Key",
+      "gui.gacha_masters.gacha_gui.button_empty": "-\u003e",
+      "gui.gacha_masters.gacha_gui.button_empty1": "\u003c-"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Commands",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "SelectGacha",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "GUIs",
+        "children": []
+      },
+      {
+        "name": "items",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "gacha_masters",
+    "modName": "Gacha Masters",
+    "version": "1.0.0",
+    "author": "Dev, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "vtx.miritokaba.gachamasters",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}

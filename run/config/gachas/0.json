@@ -1,0 +1,200 @@
+{
+    "legendary_prizes": 1,
+    "epic_prizes": 1,
+    "rare_prizes": 60,
+    "key": "gacha_masters:silver_key",
+    "legendary": {
+        "1": {
+            "command": "give %player% diamond 3",
+            "text": "§6§l%player% ha conseguido 3 Diamantes!"
+        }
+    },
+    "epic": {
+        "1": {
+            "command": "give %player% diamond 2",
+            "text": "§5§l%player% ha conseguido 2 Diamante!"
+        }
+    },
+    "rare": {
+        "1": {
+            "command": "give %player% diamond 1"
+        },
+        "2": {
+            "command": "give %player% gold_ingot 5"
+        },
+        "3": {
+            "command": "give %player% emerald 1"
+        },
+        "4": {
+            "command": "give %player% lapis_block 4"
+        },
+        "5": {
+            "command": "give %player% quartz_block 5"
+        },
+        "6": {
+            "command": "give %player% melon 5"
+        },
+        "7": {
+            "command": "give %player% pumpkin 5"
+        },
+        "8": {
+            "command": "give %player% iron_ingot 10"
+        },
+        "9": {
+            "command": "give %player% coal_block 4"
+        },
+        "10": {
+            "command": "give %player% stone 32"
+        },
+        "11": {
+            "command": "give %player% sand 64"
+        },
+        "12": {
+            "command": "give %player% sandstone 32"
+        },
+        "13": {
+            "command": "give %player% glass 32"
+        },
+        "14": {
+            "command": "give %player% gravel 32"
+        },
+        "15": {
+            "command": "give %player% dirt 64"
+        },
+        "16": {
+            "command": "give %player% grass_block 1"
+        },
+        "17": {
+            "command": "give %player% soul_sand 5"
+        },
+        "18": {
+            "command": "give %player% hay_block 5"
+        },
+        "19": {
+            "command": "give %player% campfire 1"
+        },
+        "20": {
+            "command": "give %player% lantern 1"
+        },
+        "21": {
+            "command": "give %player% leather_helmet 1"
+        },
+        "22": {
+            "command": "give %player% leather_chestplate 1"
+        },
+        "23": {
+            "command": "give %player% leather_leggings 1"
+        },
+        "24": {
+            "command": "give %player% leather_boots 1"
+        },
+        "25": {
+            "command": "give %player% chainmail_helmet 1"
+        },
+        "26": {
+            "command": "give %player% chainmail_chestplate 1"
+        },
+        "27": {
+            "command": "give %player% chainmail_leggings 1"
+        },
+        "28": {
+            "command": "give %player% chainmail_boots 1"
+        },
+        "29": {
+            "command": "give %player% spyglass 1"
+        },
+        "30": {
+            "command": "give %player% compass 1"
+        },
+        "31": {
+            "command": "give %player% clock 1"
+        },
+        "32": {
+            "command": "give %player% flint_and_steel 1"
+        },
+        "33": {
+            "command": "give %player% lead 1"
+        },
+        "34": {
+            "command": "give %player% name_tag 1"
+        },
+        "35": {
+            "command": "give %player% saddle 1"
+        },
+        "36": {
+            "command": "give %player% bread 20"
+        },
+        "37": {
+            "command": "give %player% baked_potato 20"
+        },
+        "38": {
+            "command": "give %player% cooked_beef 10"
+        },
+        "39": {
+            "command": "give %player% copper_ingot 32"
+        },
+        "40": {
+            "command": "give %player% map 1"
+        },
+        "41": {
+            "command": "give %player% sunflower 1"
+        },
+        "42": {
+            "command": "give %player% torch 32"
+        },
+        "43": {
+            "command": "give %player% chest 2"
+        },
+        "44": {
+            "command": "give %player% crafting_table 1"
+        },
+        "45": {
+            "command": "give %player% furnace 2"
+        },
+        "46": {
+            "command": "give %player% blast_furnace 1"
+        },
+        "47": {
+            "command": "give %player% smoker 1"
+        },
+        "48": {
+            "command": "give %player% barrel 2"
+        },
+        "49": {
+            "command": "give %player% note_block 1"
+        },
+        "50": {
+            "command": "give %player% tnt 1"
+        },
+        "51": {
+            "command": "give %player% redstone 25"
+        },
+        "52": {
+            "command": "give %player% slime_block 1"
+        },
+        "53": {
+            "command": "give %player% honey_block 1"
+        },
+        "54": {
+            "command": "give %player% slime_ball 2"
+        },
+        "55": {
+            "command": "give %player% soul_torch 5"
+        },
+        "56": {
+            "command": "give %player% ice 5"
+        },
+        "57": {
+            "command": "give %player% obsidian 1"
+        },
+        "58": {
+            "command": "give %player% anvil 1"
+        },
+        "59": {
+            "command": "give %player% bee_nest 1"
+        },
+        "60": {
+            "command": "give %player% lodestone 1"
+        }
+    }
+}

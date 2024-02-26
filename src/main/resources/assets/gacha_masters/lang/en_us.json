@@ -1,0 +1,9 @@
+{
+  "gui.gacha_masters.gacha_gui.button_1": "1",
+  "gui.gacha_masters.gacha_gui.button_10": "10",
+  "item.gacha_masters.silver_key": "Silver Key",
+  "gui.gacha_masters.gacha_gui.button_x": "X",
+  "item.gacha_masters.gold_key": "Gold Key",
+  "gui.gacha_masters.gacha_gui.button_empty": "-\u003e",
+  "gui.gacha_masters.gacha_gui.button_empty1": "\u003c-"
+}

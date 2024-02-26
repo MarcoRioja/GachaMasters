@@ -1,0 +1,221 @@
+{
+  "_fv": 43,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 400,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_gui.png",
+          "use1Xscale": false,
+          "x": 13,
+          "y": 20
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "->",
+          "onClick": {
+            "name": "NextGacha"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 373,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "<-",
+          "onClick": {
+            "name": "PrevGacha"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 17,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "X",
+          "onClick": {
+            "name": "QuitGachaGUI"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 378,
+          "y": 23
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_1",
+          "text": "1",
+          "onClick": {
+            "name": "RollGacha"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 183,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_10",
+          "text": "10",
+          "onClick": {
+            "name": "RollGachax10"
+          },
+          "width": 35,
+          "height": 20,
+          "x": 214,
+          "y": 196
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha1GUI"
+          },
+          "x": 19,
+          "y": 25
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha2GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha3GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha4GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha5GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha6GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha7GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha8GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha9GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gacha_10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "SelectGacha10GUI"
+          },
+          "x": 18,
+          "y": 23
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "_fv": 43,
+  "_type": "command",
+  "definition": {
+    "commandName": "gacha",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"167\" y=\"79\"><next><block type=\"call_procedure\"><field name=\"procedure\">OpenGachaGUI</field></block></next></block></xml>"
+  }
+}
